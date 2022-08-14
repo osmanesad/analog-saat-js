@@ -28,11 +28,11 @@ body{
 
 #minute {
     position: absolute;
-    height: 165px;
+    height: 180px;
     width: 8px;
     background-color: rgb(255, 251, 0);
-    left: 199px;
-    bottom: 199px;
+    left: 200px;
+    bottom: 200px;
     transform-origin: 0 100%;
     
 }
@@ -42,8 +42,8 @@ body{
     height: 145px;
     width: 16px;
     background-color: rgb(204, 0, 255);
-    left: 198px;
-    bottom: 198px;
+    left: 200px;
+    bottom: 200px;
     transform-origin: 0 100%;
     
     
@@ -55,6 +55,37 @@ body{
     border-radius: 30px;
     background-color: rgb(0, 255, 128);
     position: absolute;
-    left: 190px;
-    bottom: 180px;
+    left: 180px;
+    bottom: 190px;
+}
+
+#box {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 238, 0);
+    position: absolute;
+    right: 50px;
+    top: 415px;
+}
+
+#screen {
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 75px;
+    top: 425px;
+    color: greenyellow;
+    font-size: 32pt;
+}
+
+#time {
+    position: absolute;
+    right: 90px;
+    top: 425px;
+    color: greenyellow;
+    font-size: 55pt;
+
 }
